@@ -41,10 +41,50 @@ public class Main {
             System.out.println("Потребуется дней: " + deliveryDays);
         }
 
+
+        int mothNumber = 12;
+        switch (mothNumber) {
+            case 1:
+            case 2:
+            case 12:
+                System.out.println("Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
+
+
+                int year = 2024;
+                if (year % 400 == 0) {
+                    System.out.println(year + " год является високосным");
+                } else if (year % 100 == 0) {
+                    System.out.println(year + " год не является високосным");
+                } else if (year % 4 == 0) {
+                    System.out.println(year + " год является високосным");
+                } else {
+                    System.out.println(year + " год не является високосным");
+                }
+        }
+
     }
 
 
-}
+
 
 
 

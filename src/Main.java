@@ -21,8 +21,34 @@ public class Main {
             System.out.println("Установите версию приложения для iOS по ссылке");
         } else {
             System.out.println("Установите версию приложения для Android по ссылке");
+
+
         }
 
 
+        int deliveryDistance = 95;
+        int deliveryDays = 1;
+
+        if (deliveryDistance > 100) {
+            System.out.println("Доставки нет");
+        } else if (deliveryDistance > 60) {
+            deliveryDays += 2;
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else if (deliveryDistance > 20) {
+            deliveryDays += 1;
+            System.out.println("Потребуется дней: " + deliveryDays);
+        } else {
+            System.out.println("Потребуется дней: " + deliveryDays);
+        }
+
     }
+
+
 }
+
+
+
+
+
+
+

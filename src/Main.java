@@ -1,5 +1,29 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+
+        int clientOs = 0;
+        if (clientOs == 1) {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        }
+
+
+
+        int devaces = 2015;
+        if (devaces <= 2015) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        } else {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        }
+
+
+
+
+
+
+
+
     }
 }
